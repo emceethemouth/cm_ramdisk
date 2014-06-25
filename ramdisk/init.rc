@@ -552,9 +552,6 @@ service media /system/bin/mediaserver
     group audio camera inet net_bt net_bt_admin net_bw_acct drmrpc qcom_diag mediadrm
     ioprio rt 4
 
-service sysinit /system/bin/sysinit
-    oneshot
-
 service bootanim /system/bin/bootanimation
     class main
     user graphics
